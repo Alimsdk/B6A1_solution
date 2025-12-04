@@ -29,6 +29,6 @@ type PersonKeys= keyof Person;
 একই ভাবে একটি ডেটা একটি নির্দিষ্ট টাইপ যেমন স্ট্রিং/নাম্বার বা অন্যান্য কিনা চেক করার জন্য ও keyof ব্যবহার করা হয়
 
 const getPhoneNumber=(data)=>{
-if(tyoeof data === number){
+if(typeof data === number){
 console.log("yes it is a number ")
 }}
